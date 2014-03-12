@@ -268,15 +268,6 @@ public class ContactInfoHelper {
     }
 
     /**
-     * Checks whether calls can be blacklisted; that is, whether the
-     * phone blacklist is enabled
-     */
-    public boolean canBlacklistCalls() {
-        return Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.PHONE_BLACKLIST_ENABLED, 1) != 0;
-    }
-
-    /**
      * Requests the given number to be added to the phone blacklist
      *
      * @param number the number to be blacklisted
