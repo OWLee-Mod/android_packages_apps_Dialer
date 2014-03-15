@@ -156,7 +156,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".callstats.CallStatsDetailActivity"
+        <activity android:name="com.android.dialer.callstats.CallStatsDetailActivity"
             android:label="@string/callStatsDetailTitle"
             android:theme="@style/CallDetailActivityTheme"
             android:screenOrientation="portrait"
